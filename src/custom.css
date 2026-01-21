@@ -31,12 +31,7 @@ ul{
     height: auto;
 }
 
-
-
-
-
 /* .......Header......*/
-
 .header-area{
     position: sticky;
     padding: 20px 0;
@@ -100,8 +95,6 @@ ul{
     color: #000;
     font-family: "inter-medium";
 }
-
-
 /* ...footer-section.....*/
 .footer-area{
     background-color: rgb(15, 23, 41);
@@ -116,9 +109,17 @@ ul{
     color: rgb(147, 162, 184);
     font-size: 15px;
 }
-
 .footer-list{
     display: flex;
     gap: 60px;
     justify-content: end;
+}
+.footer-list .footer-listfirst span{
+      font-family: "inter-bold";
+    color:#fff;
+    font-size: 14px;
+}
+.footer-list .footer-listfirst ul a{
+    color: rgb(147, 162, 184);
+    font-size: 15px;
 }
