@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer(){
     return(
         <>
@@ -10,8 +12,41 @@ export default function Footer(){
                         <p>ConvertBhai is your go-to solution for all file
                             conversion needs. Simple, fast, and secure.</p>
                     </div>
+                    </div>
 
-                </div>
+                    <div className="col-lg-8">
+                        <div className="footer-list">
+                            <div className="footer-listfirst">
+                                <span>Product</span>
+                                <ul>
+                                    <li><Link to={"/"}>Tools</Link></li>
+                                     <li><Link to={"/"}>API</Link></li>
+                                      <li><Link to={"/"}>Pricing</Link></li>
+                                     
+                                </ul>
+                            </div>
+
+                              <div className="footer-listfirst">
+                                <span>Company</span>
+                                <ul>
+                                    <li><Link to={"/"}>About Us</Link></li>
+                                     <li><Link to={"/"}>Blog</Link></li>
+                                      <li><Link to={"/"}>Contact</Link></li>
+                                     
+                                </ul>
+                            </div>
+
+                              <div className="footer-listfirst">
+                                <span>Legal</span>
+                                <ul>
+                                    <li><Link to={"/"}>Privacy Policy</Link></li>
+                                     <li><Link to={"/"}>Terms of Service</Link></li>
+                                      <li><Link to={"/"}>Cookie Policy</Link></li>
+                                     
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
 

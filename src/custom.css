@@ -116,3 +116,9 @@ ul{
     color: rgb(147, 162, 184);
     font-size: 15px;
 }
+
+.footer-list{
+    display: flex;
+    gap: 60px;
+    justify-content: end;
+}
