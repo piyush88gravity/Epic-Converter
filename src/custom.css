@@ -1,0 +1,118 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background: #ffff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:"inter-extrabold";
+}
+p{
+    color: #ffff;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/* .......Header......*/
+
+.header-area{
+    position: sticky;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.logo a span{
+    font-family: "inter-bold";
+    color: rgb(15, 23, 36);
+    font-size: 18px;
+}
+.logo div{
+    width: 30px;
+    height: 29px;
+    background-color: rgb(92, 124, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.logo a{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-decoration: none;
+}
+.nav-list{  
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list ul{
+    display: flex;
+    gap: 31px;
+}
+.nav-list ul a{
+    font-size: 13px;
+    color: rgb(147, 162, 184);
+    font-family: "inter-medium";
+}
+.nav-menu{
+   display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+} 
+.nav-menu i{
+    color: rgb(147, 162, 184);
+}
+.nav-menu button{
+      border: none;
+    background: linear-gradient(to right, rgb(106, 99, 242), rgb(131, 93, 245));
+    color: #fff;
+    font-family: "inter-medium";
+    border-radius: 6px;
+    width: 84px;
+    height: 32px;
+    font-size: 14px;
+}
+.nav-menu span{
+    font-size: 13px;
+    color: #000;
+    font-family: "inter-medium";
+}
+
+
+/* ...footer-section.....*/
+.footer-area{
+    background-color: rgb(15, 23, 41);
+    padding: 40px 0;
+}
+.footer-text span{
+     font-family: "inter-bold";
+    color:#fff;
+    font-size: 18px;
+}
+.footer-text p{
+    color: rgb(147, 162, 184);
+    font-size: 15px;
+}
