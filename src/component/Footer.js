@@ -50,6 +50,18 @@ export default function Footer() {
 
                         <div className="col-lg-12">
                             <div className="footer-copyright">
+                                <span>© 2024 ConvertBhai. All rights reserved.</span>
+                                <div className="copyright-social">
+                                    <div className="social-icon">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </div>
+                                     <div className="social-icon">
+                                        <i class="bi bi-facebook"></i>
+                                    </div>
+                                     <div className="social-icon">
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                                </div>
                                 
                             </div>
                         </div>

@@ -33,9 +33,13 @@ ul{
 
 /* .......Header......*/
 .header-area{
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 20px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 .logo a span{
     font-family: "inter-bold";
@@ -98,7 +102,7 @@ ul{
 /* ...footer-section.....*/
 .footer-area{
     background-color: rgb(15, 23, 41);
-    padding: 40px 0;
+    padding-top: 40px;
 }
 .footer-text span{
      font-family: "inter-bold";
@@ -122,4 +126,44 @@ ul{
 .footer-list .footer-listfirst ul a{
     color: rgb(147, 162, 184);
     font-size: 15px;
+}
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgb(30, 41, 59);
+    margin: 30px 0;
+    padding-top: 30px;
+}
+.footer-copyright span{
+    color: rgb(147, 162, 184);
+    font-size: 15px;
+}
+.copyright-social{
+    display: flex;
+    gap: 30px;
+}
+.social-icon{
+    color: rgb(147, 162, 184);
+}
+/* .......Home.......*/
+.homebanner-area{
+    padding: 50px 0;
+}
+.home-bannertext p{
+    color: #000;
+}
+.home-bannerbox{
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 85px 0;
+}
+.home-bannertext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
