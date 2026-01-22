@@ -7,7 +7,7 @@ export default function HomeBanner() {
                         <div className="col-lg-8">
                             <div className="home-bannertext">
                                 <h3>Convert Your Files Instantly</h3>
-                                <div className="col-lg-6">
+                                <div className="col-lg-8">
                                     <p>The ultimate toolkit for your digital documents. Convert Image to PDF,
                                         PDF to Image, Fonts, Videos & More with zero hassle.</p>
                                 </div>
