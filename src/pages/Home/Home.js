@@ -1,4 +1,5 @@
 import HomeBanner from "./HomeBanner";
+import HomeExtra from "./HomeExtra";
 import HomeMenu from "./HomeMenu";
 import HomeSteps from "./HomeSteps";
 
@@ -8,6 +9,7 @@ export default function Home(){
         <HomeBanner/>
         <HomeMenu/>
         <HomeSteps/>
+        <HomeExtra/>
         
         
         </>
