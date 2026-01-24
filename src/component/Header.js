@@ -22,7 +22,7 @@ export default function Header() {
                             <div className="nav-list">
                                 <ul>
                                     <li><Link to={"/"}>Tools</Link></li>
-                                    <li><Link to={"/api"}>API</Link></li>
+                                    <li><Link to={"/apipage"}>API</Link></li>
                                     <li><Link to={"/pricing"}>Pricing</Link></li>
                                     <li><Link to={"/blog"}>Blog</Link></li>
                                     <li><Link to={"/contact"}>Contact</Link></li>
